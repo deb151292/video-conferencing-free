@@ -1,0 +1,19 @@
+{
+  "name": "system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "localtunnel": "^2.0.2",
+    "socket.io": "^4.8.1"
+  }
+}
