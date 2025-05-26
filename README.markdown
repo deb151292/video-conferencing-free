@@ -32,8 +32,8 @@ Follow these steps to set up and run the project locally:
 1. **Clone or Download the Project**:
    - If the project is in a repository, clone it:
      ```
-     git clone <repository-url>
-     cd <project-directory>
+     git clone https://github.com/deb151292/video-conferencing-free.git
+     cd video-conferencing-free
      ```
    - Alternatively, download the project files and navigate to the project directory in your terminal.
 
