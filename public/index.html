@@ -229,18 +229,8 @@
 
         const configuration = {
             iceServers: [
-                { urls: 'stun:stun.l.google.com:19302' },
-                // Adding a public TURN server for better NAT traversal
-                {
-                    urls: 'turn:openrelay.metered.ca:80',
-                    username: 'openrelayproject',
-                    credential: 'openrelayproject'
-                },
-                {
-                    urls: 'turn:openrelay.metered.ca:443',
-                    username: 'openrelayproject',
-                    credential: 'openrelayproject'
-                }
+                { urls: 'stun:stun.l.google.com:19302' }
+                //If this stun server dont work use any free turn server
             ]
         };
 
